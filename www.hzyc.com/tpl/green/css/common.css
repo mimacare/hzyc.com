@@ -1,0 +1,13 @@
+/*
+	本页单位 1em = 16px
+	本页css属性规范：位置属性(position, top, right, z-index, display, float等),
+					 大小(width, height, padding, margin),
+					 文字(font, line-height, letter-spacing, color- text-align等),
+					 背景(background, border等)，
+					 其他（animation,transition）
+*/
+/*wrap*/
+.wrap{width:980px;margin:0 auto;}
+/*margin*/
+.mb20{ margin-bottom: 20px;}
+
