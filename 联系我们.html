@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>首页</title> 
+		<link rel="stylesheet" type="text/css" href="tpl/green/css/reset.css" media="all"/> 
+		<link rel="stylesheet" type="text/css" href="tpl/green/css/common.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="tpl/green/css/contact.css" media="all"/>
+		<script src="tpl/green/js/jquery-1.8.3.min.js" type="text/javascript"></script> 
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=kxGwbTMYbp0GwFg7FXoUvWpL"></script>
+	</head> 
+	<body> 
+	<div class="head">
+	</div>
+	<!-- end head -->
+	<div class="contact">
+		<div class="w725">
+			<div class="pb100 clearfix">
+				<div class="fl map mr100">
+					<div id="map" class="submap"></div>
+					<script type="text/javascript">
+				    //创建和初始化地图函数：
+				    function initMap(){
+				      createMap();//创建地图
+				      setMapEvent();//设置地图事件
+				      addMapControl();//向地图添加控件
+				      addMapOverlay();//向地图添加覆盖物
+				    }
+				    function createMap(){ 
+				      map = new BMap.Map("map"); 
+				      map.centerAndZoom(new BMap.Point(125.297386,43.833036),17);
+				    }
+				    function setMapEvent(){
+				      map.enableScrollWheelZoom();
+				      map.enableKeyboard();
+				      map.enableDragging();
+				      map.enableDoubleClickZoom()
+				    }
+				    function addClickHandler(target,window){
+				      target.addEventListener("click",function(){
+				        target.openInfoWindow(window);
+				      });
+				    }
+				    function addMapOverlay(){
+				      var markers = [
+				        {content:"高新技术产业开发区前进大街2426号",title:"修正服务外包大厦",imageOffset: {width:0,height:3},position:{lat:43.833205,lng:125.297063}}
+				      ];
+				      for(var index = 0; index < markers.length; index++ ){
+				        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+				        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+				          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+				        })});
+				        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+				        var opts = {
+				          width: 200,
+				          title: markers[index].title,
+				          enableMessage: false
+				        };
+				        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+				        marker.setLabel(label);
+				        addClickHandler(marker,infoWindow);
+				        map.addOverlay(marker);
+				      };
+				    }
+				    //向地图添加控件
+				    function addMapControl(){
+				      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+				      scaleControl.setUnit(BMAP_UNIT_METRIC);
+				      map.addControl(scaleControl);
+				      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:3});
+				      map.addControl(navControl);
+				      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:false});
+				      map.addControl(overviewControl);
+				    }
+				    var map;
+				      initMap();
+				  </script>
+				</div>
+				<h2 class="txt tit mb40">合众易成信息技术咨询有限公司（长春）</h2>
+				<p class="txt mb40">地址：吉林省长春市前进大街与修正路交汇修正服务外包大厦  2208 2209室</p>
+				<p class="txt mb40">电话：0431-81772509</p>
+				<dl class="txt contacter"><dt class="icon web"></dt><dd>web前端负责人：周老师    Tel：151-4316-7496<dd></dl>
+				<dl class="txt contacter"><dt class="icon android"></dt><dd>android 负责人：胡老师    Tel：137-5654-3415<dd></dl>
+			</div>
+			<div class="pb100 clearfix">
+				<div class="fr map ml100">
+					<div id="map2" class="submap"></div>
+					<script type="text/javascript">
+					//创建和初始化地图函数：
+					function initMap(){
+					  createMap();//创建地图
+					  setMapEvent();//设置地图事件
+					  addMapControl();//向地图添加控件
+					  addMapOverlay();//向地图添加覆盖物
+					}
+					function createMap(){ 
+					  map = new BMap.Map("map2"); 
+					  map.centerAndZoom(new BMap.Point(126.571382,43.926501),15);
+					}
+					function setMapEvent(){
+					  map.enableScrollWheelZoom();
+					  map.enableKeyboard();
+					  map.enableDragging();
+					  map.enableDoubleClickZoom()
+					}
+					function addClickHandler(target,window){
+					  target.addEventListener("click",function(){
+					    target.openInfoWindow(window);
+					  });
+					}
+					function addMapOverlay(){
+					  var markers = [
+					    {content:"",title:"万兴·家和2栋",imageOffset: {width:0,height:3},position:{lat:43.927955,lng:126.570735}}
+					  ];
+					  for(var index = 0; index < markers.length; index++ ){
+					    var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+					    var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+					      imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+					    })});
+					    var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+					    var opts = {
+					      width: 200,
+					      title: markers[index].title,
+					      enableMessage: false
+					    };
+					    var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+					    marker.setLabel(label);
+					    addClickHandler(marker,infoWindow);
+					    map.addOverlay(marker);
+					  };
+					}
+					//向地图添加控件
+					function addMapControl(){
+					  var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+					  scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+					  map.addControl(scaleControl);
+					  var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:3});
+					  map.addControl(navControl);
+					  var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:false});
+					  map.addControl(overviewControl);
+					}
+					var map;
+					  initMap();
+					</script>
+				</div>
+				<h2 class="txt tit mb40">合众易成信息技术咨询有限公司（吉林）</h2>
+				<p class="txt mb40">地址：吉林省吉林市汉阳街万兴家和2栋203室</p>
+				<p class="txt mb40">电话：130-2917-3199</p>
+				<dl class="txt contacter"><dt class="icon android"></dt><dd>android 负责人：安老师    Tel：151-4303-5552<dd></dl>
+			</div>
+			<img class="qrcode" src="tpl/green/images/qrcode.png" alt="合众易成微信公众号"/>
+		</div>
+	</div>
+	<!-- end content -->
+	
+	</body>
+</html>

@@ -8,6 +8,16 @@
 */
 /*wrap*/
 .wrap{width:980px;margin:0 auto;}
+.w1024{ width: 1024px; margin: 0 auto;}
+.w725{position: relative; width: 725px; margin: 0 auto;}
 /*margin*/
 .mb20{ margin-bottom: 20px;}
+.mb40{ margin-bottom: 40px;}
+.mr100{ margin-right: 100px;}
+.ml100{ margin-left: 100px;}
+/*padding*/
+.pb100{ padding-bottom: 100px;}
+/*float*/
+.fl{ float: left;}
+.fr{ float: right;}
 

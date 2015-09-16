@@ -1,0 +1,22 @@
+/*
+	本页单位 1em = 16px
+	本页css属性规范：位置属性(position, top, right, z-index, display, float等),
+					 大小(width, height, padding, margin),
+					 文字(font, line-height, letter-spacing, color- text-align等),
+					 背景(background, border等)，
+					 其他（animation,transition）
+*/
+/*contact*/
+.contact{ width: 100%; background-color: #f0f0f0;}
+.contact .map{ width: 155px; height: 308px;background:url(../images/contact-phone.png) no-repeat;}
+.submap{ width: 135px; height: 237px; margin:36px 10px;}
+.contact .txt{ font: normal 12px "Microsoft YaHei","Arial"; color: #484949;}
+.contact .tit{ height: 40px; font: normal 14px "Microsoft YaHei","Arial"; line-height: 40px;}
+.contacter{ height: 45px; margin-bottom: 13px;}
+.contacter .icon{float: left; width: 45px; height: 45px;}
+.contacter dt{ width: 45px; height: 45px; margin-right: 13px; background: url(../images/icon.png) no-repeat center center;}
+.contacter dt.web{background-position: 0 0;}
+.contacter dt.android{ background-position: -45px 0;}
+.contacter dd{ line-height: 45px;}
+/*qrcode*/
+.qrcode{position: absolute; right: -150px; top: 200px; width: 126px; height: 126px; background-size: 100% 100%; border: 7px solid #e5e5e5;}

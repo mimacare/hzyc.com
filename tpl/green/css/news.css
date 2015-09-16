@@ -1,0 +1,37 @@
+/*
+	本页单位 1em = 16px
+	本页css属性规范：位置属性(position, top, right, z-index, display, float等),
+					 大小(width, height, padding, margin),
+					 文字(font, line-height, letter-spacing, color- text-align等),
+					 背景(background, border等)，
+					 其他（animation,transition）
+*/
+/*news*/
+.news{ background-color: #f0f0f0;}
+.new_tit{ margin-bottom: 17px;}
+.new_tit li{ float: left; width: 82px; height: 104px; margin: 0 23px 17px;}
+.new_tit li i{display: block; width: 62px; height: 62px; margin: 0 auto; background:url(../images/news-icon.png) no-repeat;}
+.new_tit li i.java{ background-position: 0 0;}
+.new_tit li:hover i.java,.new_tit .curr .java{background-position: 0 -62px;}
+.new_tit li i.android{ background-position: -62px 0;}
+.new_tit li:hover i.android,.new_tit .curr .android{background-position: -62px -62px;}
+.new_tit li i.web{ background-position: -124px 0;}
+.new_tit li:hover i.web,.new_tit .curr .web{background-position: -124px -62px;}
+.new_tit li i.ui{ background-position: -186px 0;}
+.new_tit li:hover i.ui,.new_tit .curr .ui{background-position: -186px -62px;}
+.new_tit li i.php{ background-position: -248px 0;}
+.new_tit li:hover i.php,.new_tit .curr .php{background-position: -248px -62px;}
+.new_tit li i.ios{ background-position: -310px 0;}
+.new_tit li:hover i.ios,.new_tit .curr .ios{background-position: -310px -62px;}
+.new_tit li i.hadoop{ background-position: -372px 0;}
+.new_tit li:hover i.hadoop,.new_tit .curr .hadoop{background-position: -372px -62px;}
+.new_tit li i.test{ background-position: -434px 0;}
+.new_tit li:hover i.test,.new_tit .curr .test{background-position: -434px -62px;}
+.new_tit p{ font: normal 18px/40px "Microsoft YaHei","Arial"; color: #a0a0a0; text-align: center;}
+.new_txt{ padding: 0 40px; margin-bottom:26px;  background-color: #ffffff;}
+.new_txt li{ height: 66px; padding: 0 21px; font: bold 12px/66px  "Microsoft YaHei","Arial"; border-bottom: 1px dotted #c1c1c1;}
+.new_txt li a{ font: bold 12px/66px  "Microsoft YaHei","Arial";color: #0a7758;}
+.new-time{ font-weight: normal; color: #484848;}
+.new-time .icon{display: inline-block; width: 17px; height: 17px; margin:-3px 7px 0; background: url(../images/news-txt-icon.png) no-repeat -17px 0; vertical-align: middle;}
+.new-author{ font-weight: normal; color: #484848;}
+.new-author .icon{display: inline-block; width: 17px; height: 17px; margin:-3px 7px 0; background: url(../images/news-txt-icon.png) no-repeat; vertical-align: middle;}
