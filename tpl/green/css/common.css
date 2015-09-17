@@ -9,14 +9,28 @@
 /*wrap*/
 .wrap{width:980px;margin:0 auto;}
 .w1024{ width: 1024px; margin: 0 auto;}
+.w738{ width: 738px; margin: 0 auto;}
 .w725{position: relative; width: 725px; margin: 0 auto;}
+/* head */
+.head{ position: relative; height: 63px; background: #0a7758; box-shadow: 0 0 7px #4c4c4c; }
+.head h1{ float: left; height: 57px; margin-left: 40px;}
+.site-logo{ float: left; height: 45px; width: 45px; margin-top: 8px; border-radius: 50%; background: url(../images/logo.jpg) no-repeat center center #fff; margin-right: 19px; background-size: 70% 70%;}
+.head h1 a{ float: left; display: block; height: 62px; width: 118px; line-height: 62px; color: #fff; }
+
+/* nav */
+.nav a{ float: left; display:block; height: 38px ; padding: 0 15px; margin: 11px 38px 0 0 ; color: #fff; font-size: 15px; line-height: 38px;  }
+.nav a:hover{cursor: pointer; border-bottom: 3px solid #ff8100;}
+.nav-selected{ border-bottom: 3px solid #ff8100;}
+
 /*margin*/
 .mb20{ margin-bottom: 20px;}
 .mb40{ margin-bottom: 40px;}
 .mr100{ margin-right: 100px;}
 .ml100{ margin-left: 100px;}
+
 /*padding*/
 .pb100{ padding-bottom: 100px;}
+
 /*float*/
 .fl{ float: left;}
 .fr{ float: right;}

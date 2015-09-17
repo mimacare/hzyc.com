@@ -7,7 +7,7 @@
 					 其他（animation,transition）
 */
 /*contact*/
-.contact{ width: 100%; background-color: #f0f0f0;}
+.contact{ background-color: #f0f0f0; padding-top: 50px;}
 .contact .map{ width: 155px; height: 308px;background:url(../images/contact-phone.png) no-repeat;}
 .submap{ width: 135px; height: 237px; margin:36px 10px;}
 .contact .txt{ font: normal 12px "Microsoft YaHei","Arial"; color: #484949;}

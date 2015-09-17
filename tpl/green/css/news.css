@@ -7,7 +7,7 @@
 					 其他（animation,transition）
 */
 /*news*/
-.news{ background-color: #f0f0f0;}
+.news{ background-color: #f0f0f0; padding-top: 50px;}
 .new_tit{ margin-bottom: 17px;}
 .new_tit li{ float: left; width: 82px; height: 104px; margin: 0 23px 17px;}
 .new_tit li i{display: block; width: 62px; height: 62px; margin: 0 auto; background:url(../images/news-icon.png) no-repeat;}
