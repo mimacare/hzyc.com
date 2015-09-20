@@ -1,0 +1,139 @@
+/*
+	本页单位 1em = 16px
+	本页css属性规范：位置属性(position, top, right, z-index, display, float等),
+					 大小(width, height, padding, margin),
+					 文字(font, line-height, letter-spacing, color- text-align等),
+					 背景(background, border等)，
+					 其他（animation,transition）
+*/
+
+
+/* 首页  */
+/* banner */
+.banner{ overflow: hidden; height: 350px; background: url(../images/bg_banner.jpg) repeat;}
+.banner-img{ position: relative;}
+.opacity-div{ position: absolute; right: 0; top: 0; height: 291px; width: 289px; padding: 59px 25px 0 25px; background:rgba(0,0,0,0.5);}
+.banner-tit{ margin-bottom: 22px; color: #e6e6e6; font-size: 24px; text-align: center; }
+.banner-content{ font-size: 15px; color: #e6e6e6; text-indent: 2em; line-height: 30px; }
+.opacity-div a{ margin: 49px 0 0 44px; width: 160px; }
+
+/* core */
+.h2-core{ margin: 29px 0 15px 5px ; width: 120px; font-size: 20px; font-weight: normal; text-align: center; color: #000; }
+.ul-core li{ float: left; width: 310px; height: 133px; margin: 0 8px 16px 8px; color: #fff; border-radius: 7px;}
+.ul-core li i{ display: block; float: left; height: 133px; width: 90px; margin: 0 0 0 14px;  background: url(../images/icon-main-core.png) no-repeat }
+.li-core-cont .tit{ display: block; margin: 32px 35px 9px 125px; color: #fff; font-size: 20px; text-align: center; }
+.li-core-cont .txt{ margin: 0 35px 0 125px; font-size: 12px; line-height: 22px; color: #ffffff;}
+
+.li-core-01{ background: #1f80bf; }
+.li-core-02{ background: #ad49a3; }
+.li-core-03{ background: #ffa304; }
+.li-core-04{ background: #1fbf2a; }
+.li-core-05{ background: #de5214; }
+.li-core-06{ background: #7289a6; }
+
+li.li-core-01 i{ background-position: 0 0 ;}
+li.li-core-02 i{ background-position: -90px 0 ;}
+li.li-core-03 i{ background-position: -180px 0 ;}
+li.li-core-04 i{ background-position: -270px 0 ;}
+li.li-core-05 i{ background-position: -360px 0 ;}
+li.li-core-06 i{ background-position: -450px 0 ;}
+
+/* process */
+.h2-process{ background: #36b001;}
+.process-cont{ float: left; width: 527px; padding: 0 4px;}
+.process-img{ float: left; margin: 0 0 0 120px;}
+
+/* lesson */
+.h2-lesson{ background: #6e3c36;}
+.ul-lesson{ float: left; width: 464px; height: 272px;}
+.ul-lesson li{ float: left; margin: 0 23px 20px 0 ; height: 117px; width: 93px; }
+.ul-lesson li a{ display: block; height: 24px; color: #000; line-height: 24px; text-align: center;}
+.ul-lesson li i{ display: block; height: 93px; width: 93px; }
+.li-lesson-01 i{ background: url(../images/icon-lesson-01.jpg) no-repeat 100% 100%; }
+.li-lesson-02 i{ background: url(../images/icon-lesson-02.jpg) no-repeat 100% 100%; }
+.li-lesson-03 i{ background: url(../images/icon-lesson-03.jpg) no-repeat 100% 100%; }
+.li-lesson-04 i{ background: url(../images/icon-lesson-04.jpg) no-repeat 100% 100%; }
+.li-lesson-05 i{ background: url(../images/icon-lesson-05.jpg) no-repeat 100% 100%; }
+.li-lesson-06 i{ background: url(../images/icon-lesson-06.jpg) no-repeat 100% 100%; }
+.li-lesson-07 i{ background: url(../images/icon-lesson-07.jpg) no-repeat 100% 100%; }
+.li-lesson-08 i{ background: url(../images/icon-lesson-08.jpg) no-repeat 100% 100%; }
+.cont-lesson{ float: right; width: 440px; }
+
+/* student */
+.h2-student{ background: #01959a;}
+.cont-student{ width: 724px; margin: 0 auto;}
+.ul-student{ margin: 30px 0 0 0 ;}
+.ul-student li{ float: left; position: relative; height: 160px; width: 283px; margin: 0 21px;  }
+.ul-student li a{ position: absolute; bottom: 0; left: 0; height: 26px; width: 100%; line-height: 26px; text-align: center; color: #fff; background: #565757;}
+
+
+/* new */
+.h2-new{ background: #b68200;}
+.ul-new li{ float: left; height: 235px; width: 210px; margin: 0 17.5px;}
+.ul-new li a{ display: block; margin: 8px 0 0 0 ; line-height: 18px; color: #898989; text-align: center; }
+.ul-new li b{ display: block; line-height: 18px; color: #c1c1c1; text-align: center; font-weight: normal;}
+
+/* popular */
+.h2-popular{ background: #805384;}
+
+/* goto */
+.p-goto{ margin: 20px 0 15px 0; text-align: center; font-size: 24px; color: #1f80bf; }
+.goto a{ margin: 0 0 40px 380px;}
+
+
+
+/* 核心业务 */ 
+	/* detail */
+.ul-core-detail{ margin-bottom: 120px;}
+.ul-core-detail li{ float: left; height: 329px; width: 226px; margin: 0 37px 0 0 ; border: 1px solid #dcdcdc;}
+.li-core-detail-04{ margin-right: 0!important;}
+.ul-core-detail strong{ display: block; margin: 16px 10px 5px 10px; font-weight: normal; font-size: 14px; color: #323232;}
+.ul-core-detail p{ margin: 5px 10px 5px 10px; line-height: 20px; color: #585858;}
+.ul-core-detail i{ padding: 0 0 0 28px; font-style: normal;}
+.icon-clock{ display: block; margin: 10px; line-height: 20px; color: #585858; background: url(../images/icon-clock.png) no-repeat 0 center;}
+.icon-comment{ display: block; width: 90px; height: 17px; margin: 10px; background: url(../images/icon-comment.png) no-repeat;}
+.icon-comment span{ display: block; height: 15px; background: url(../images/icon-star.png) repeat-x ;}
+	
+	/* tab */
+.core-tab{ position: fixed; bottom: 0; width: 100%; height: 153px; background: #525252;}
+.ul-core-tab{ padding: 44px 0 0 0;}
+.ul-core-tab li{ position: relative; float: left; width: 161px; height: 70px; margin-right: 9px; border-radius: 5px; }
+
+.ul-core-tab li i{ display: block; float: left; height: 70px; width: 47px; margin: 0 0 0 5px; background: url(../images/icon-main-core02.png) no-repeat ; }
+
+.li-core-tab-01{ background: #1f80bf; }
+.li-core-tab-02{ background: #ad49a3; }
+.li-core-tab-03{ background: #ffa304; }
+.li-core-tab-04{ background: #1fbf2a; margin-right:0!important;}
+.li-core-tab-05{ background: #de5214; }
+.li-core-tab-06{ background: #7289a6; }
+
+li.li-core-tab-01 i{ background-position: 0 0 ;}
+li.li-core-tab-02 i{ background-position: -47px 0 ;}
+li.li-core-tab-03 i{ background-position: -94px 0 ;}
+li.li-core-tab-04 i{ background-position: -141px 0 ;}
+li.li-core-tab-05 i{ background-position: -188px 0 ;}
+li.li-core-tab-06 i{ background-position: -235px 0 ;}
+
+.ul-core-tab li a{ display: block; float: left; margin: 26px 0 0 13px; color: #fff; font-size: 18px; }
+
+
+
+/* 公司荣誉 */   
+.wrap-honor{ position: relative; padding-bottom: 150px; }
+.line-honor{ position: absolute; left: 46px; top: 15px; z-index: 1; width: 3px; height: 80%; background: #dcdcdc; }
+.ul-honor{ padding-top: 18px;}
+.ul-honor li{ position: relative; z-index: 2; margin: 18px 44px 18px 34px; padding: 0 0 0 87px; background: url(../images/icon-li-honor.png) 0 center no-repeat;}
+.ul-honor li p{ margin: ; padding: 0 24px; line-height: 28px; font-size: 14px;  background: #dcdcdc; }
+
+
+/* 项目案例 */
+.ul-project{ margin-bottom: 50px; padding: 19px; background: #fff;}
+.ul-project li{ margin-bottom: 20px;}
+.ul-project li:hover{ background: #fafafa; }
+.img-project{ float: left; height: 293px; width: 275px; background: #e2e2e2; }
+.p-project{ float: left; height: 293px; width: 625px; margin-left: 50px; padding-right: 35px; overflow: hidden;}
+.p-project p{ color: #484949; line-height: 30px;}
+
+
+

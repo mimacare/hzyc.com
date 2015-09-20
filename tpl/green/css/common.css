@@ -11,6 +11,21 @@
 .w1024{ width: 1024px; margin: 0 auto;}
 .w738{ width: 738px; margin: 0 auto;}
 .w725{position: relative; width: 725px; margin: 0 auto;}
+.bg-f0{ background-color: #f0f0f0; }
+
+/*margin*/
+.mb20{ margin-bottom: 20px;}
+.mb40{ margin-bottom: 40px;}
+.mr100{ margin-right: 100px;}
+.ml100{ margin-left: 100px;}
+
+/*padding*/
+.pb100{ padding-bottom: 100px;}
+.pt50{ padding-top: 50px;}
+/*float*/
+.fl{ float: left;}
+.fr{ float: right;}
+
 /* head */
 .head{ position: relative; height: 63px; background: #0a7758; box-shadow: 0 0 7px #4c4c4c; }
 .head h1{ float: left; height: 57px; margin-left: 40px;}
@@ -22,16 +37,14 @@
 .nav a:hover{cursor: pointer; border-bottom: 3px solid #ff8100;}
 .nav-selected{ border-bottom: 3px solid #ff8100;}
 
-/*margin*/
-.mb20{ margin-bottom: 20px;}
-.mb40{ margin-bottom: 40px;}
-.mr100{ margin-right: 100px;}
-.ml100{ margin-left: 100px;}
+/* foot */
+.foot{ height: 92px; background: #34c4a8;  color: #fff}
+.links-foot{ height: 12px; padding: 26px 0 18px 0; text-align: center;}
+.links-foot a{ color: #fff; margin: 0 6px;}
+.foot p{ text-align: center;}
 
-/*padding*/
-.pb100{ padding-bottom: 100px;}
-
-/*float*/
-.fl{ float: left;}
-.fr{ float: right;}
-
+/* 首页 */
+.h2{ height: 40px; width: 140px; margin: 25px 0; line-height: 40px; font-size: 18px; font-weight: normal; color: #fff; text-align: center; border-radius: 3px; }
+.p-tit{ margin: 20px 0 20px; text-align: center; font-weight: bold; font-size: 20px; color: #000; }
+.p-content{ text-indent: 2em; line-height: 30px; font-size: 14px; color: #9b9b9b;}
+.a-orange{ display: inline-block; height: 44px; padding: 0 20px; color: #fff; text-align: center;  line-height: 44px; font-size: 17px; border-radius: 23px; background: url(../images/btn_bg_banner.png) repeat-x;}
