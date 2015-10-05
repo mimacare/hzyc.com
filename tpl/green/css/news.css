@@ -28,7 +28,8 @@
 .new_tit li i.test{ background-position: -434px 0;}
 .new_tit li:hover i.test,.new_tit .curr .test{background-position: -434px -62px;}
 .new_tit p{ font: normal 18px/40px "Microsoft YaHei","Arial"; color: #a0a0a0; text-align: center;}
-.new_txt{ padding: 0 40px; margin-bottom:26px;  background-color: #ffffff;}
+.new_txt{ display: none; padding: 0 40px; margin-bottom:26px;  background-color: #ffffff;}
+.new_txt:first-child{ display: block;}
 .new_txt li{ height: 66px; padding: 0 21px; font: bold 12px/66px  "Microsoft YaHei","Arial"; border-bottom: 1px dotted #c1c1c1;}
 .new_txt li a{ font: bold 12px/66px  "Microsoft YaHei","Arial";color: #0a7758;}
 .new-time{ font-weight: normal; color: #484848;}

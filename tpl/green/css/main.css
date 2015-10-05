@@ -84,9 +84,9 @@ li.li-core-06 i{ background-position: -450px 0 ;}
 
 /* 核心业务 */ 
 	/* detail */
-.ul-core-detail{ margin-bottom: 120px;}
-.ul-core-detail li{ float: left; height: 329px; width: 226px; margin: 0 37px 0 0 ; border: 1px solid #dcdcdc;}
-.li-core-detail-04{ margin-right: 0!important;}
+.ul-core-detail{ display: none; width: 1060px; margin-bottom: 120px;}
+.ul-core-detail:first-child{ display: block;}
+.ul-core-detail li{ float: left; height: 329px; width: 226px; margin: 0 37px 20px 0 ; border: 1px solid #dcdcdc;}
 .ul-core-detail strong{ display: block; margin: 16px 10px 5px 10px; font-weight: normal; font-size: 14px; color: #323232;}
 .ul-core-detail p{ margin: 5px 10px 5px 10px; line-height: 20px; color: #585858;}
 .ul-core-detail i{ padding: 0 0 0 28px; font-style: normal;}
@@ -94,12 +94,11 @@ li.li-core-06 i{ background-position: -450px 0 ;}
 .icon-comment{ display: block; width: 90px; height: 17px; margin: 10px; background: url(../images/icon-comment.png) no-repeat;}
 .icon-comment span{ display: block; height: 15px; background: url(../images/icon-star.png) repeat-x ;}
 	
-	/* tab */
-.core-tab{ position: fixed; bottom: 0; width: 100%; height: 153px; background: #525252;}
-.ul-core-tab{ padding: 44px 0 0 0;}
-.ul-core-tab li{ position: relative; float: left; width: 161px; height: 70px; margin-right: 9px; border-radius: 5px; }
+/* tab */
+.core-tab{ position: fixed; bottom: 0; width: 100%; padding: 20px 0; background:rgba(0,0,0,0.6);}
+.ul-core-tab li{ position: relative; float: left; width: 161px; height: 70px; margin-right: 9px; border-radius: 5px; color: #fff; font-size: 18px; line-height: 70px; cursor: pointer;}
 
-.ul-core-tab li i{ display: block; float: left; height: 70px; width: 47px; margin: 0 0 0 5px; background: url(../images/icon-main-core02.png) no-repeat ; }
+.ul-core-tab li i{ display: block; float: left; height: 70px; width: 47px; margin: 0 15px 0 5px; background: url(../images/icon-main-core02.png) no-repeat ; }
 
 .li-core-tab-01{ background: #1f80bf; }
 .li-core-tab-02{ background: #ad49a3; }
@@ -115,7 +114,7 @@ li.li-core-tab-04 i{ background-position: -141px 0 ;}
 li.li-core-tab-05 i{ background-position: -188px 0 ;}
 li.li-core-tab-06 i{ background-position: -235px 0 ;}
 
-.ul-core-tab li a{ display: block; float: left; margin: 26px 0 0 13px; color: #fff; font-size: 18px; }
+.ul-core-tab li a{ display: block; float: left; margin: 26px 0 0 13px;}
 
 
 
